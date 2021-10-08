@@ -14,11 +14,11 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 const bot = new TwitterBot({
-    consumer_key: process.env.CONSUMER_KEY,
-    consumer_secret: process.env.CONSUMER_KEY_SECRET,
-    access_token: process.env.ACCESS_TOKEN,
-    access_token_secret: process.env.ACCESS_TOKEN_SECRET,
-    triggerWord: process.env.TRIGGER
+    consumer_key: 'uDrDG2SK8erM7uj0X9qfiKDTm',
+    consumer_secret: 'EI21hKLXT3aDYfKlE6ICvwxrvD5Hf1td9bOXn87BH4DRvy6tLc',
+    access_token: '1446167755703525387-o7nJgxOiFYJCFlGFeuUyw3Lsztgcnb',
+    access_token_secret: 'IgFepoQrjde4L8usl9MzTgqayTJ2d68e49o0B8CYebDOK',
+    triggerWord: '!NE'
 });
 
 const job = new CronJob(
